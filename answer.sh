@@ -11,6 +11,8 @@ esac
 
 SEARCH_QUERY=$1
 
+
+
 #GOOGLE SEARCH 
 GOOGLE_SEARCH="http://www.google.com/search?q=$SEARCH_QUERY"
 
@@ -39,7 +41,13 @@ fi
 
 #Linux OS
 if [[ $OPERATING_SYS == "Linux" ]]; then
-	python -mwebbrowser "$GOOGLE_SEARCH" "$STACKOVERFLOW_SEARCH" "$MEDIUM_SEARCH" "$REDDIT_SEARCH" "$BING_SAEARCH" "$WIKIPEDIA_SEARCH"
+	python -m webbrowser -t "$GOOGLE_SEARCH"
+	python -m webbrowser -t "$STACKOVERFLOW_SEARCH"
+	python -m webbrowser -t "$MEDIUM_SEARCH"
+	python -m webbrowser -t "$REDDIT_SEARCH"
+	python -m webbrowser -t "$BING_SAEARCH"
+	python -m webbrowser -t "$WIKIPEDIA_SEARCH"
+	  
 fi
 
 #Windows OS
