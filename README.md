@@ -2,7 +2,7 @@
 
 A useful tool for developers who prefer to search , when they are on their terminal screens.
 
-It will fire search(in your default web browser) in 7 channels [Google, Stack Overflow, Medium, Reddit, Youtube, Bing, Wikipedia ] 
+It will fire search requests(in your default web browser) in 7 channels [Google, Stack Overflow, Medium, Reddit, Youtube, Bing, Wikipedia ] 
 
 It works for Mac OSX, Linux, and Windows.
 
